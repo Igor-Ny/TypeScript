@@ -9,7 +9,7 @@ varuble = 'String';
 function sayMyName(name: string): void{
     console.log(name);
 }
-sayMyName('Have');
+sayMyName('Have metal');
 
 type ID = string | number;
 const id1: ID = "123231"
