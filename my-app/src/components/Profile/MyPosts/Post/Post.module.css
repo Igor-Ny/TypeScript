@@ -1,0 +1,16 @@
+.item {
+  color: rgb(30, 27, 223);
+}
+
+.item1 {
+  color: rgb(2, 78, 36);
+}
+
+.item1 img {
+  width: 30px;
+  border-radius: 30px;
+}
+
+.likes {
+  color: red;
+}

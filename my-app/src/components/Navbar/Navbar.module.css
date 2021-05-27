@@ -1,0 +1,21 @@
+.nav {
+    grid-area: nav;
+    background-color: rgb(20, 31, 112);
+    
+}
+  
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    padding-left: 1; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+  
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a.gold {
+    color: gold;
+}

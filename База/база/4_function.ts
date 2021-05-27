@@ -1,5 +1,7 @@
 function add(a:number, b:number): number {
-    return a+b;
+    let S = a*b;
+    const p=Math.sqrt(a+b);
+    return p;
 }
 
 function toUpperCase(str:string): string {
@@ -30,6 +32,8 @@ function position(a?: number, b?: number) {
 
     return {x: a, y: b};
 }
+
+console.log(add(3,4));
 
 console.log('Empty', position());
 console.log('One param: ', position(42));
